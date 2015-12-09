@@ -1,0 +1,17 @@
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\bin\Debug\原型设计.exe
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\bin\Debug\原型设计.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.AddForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.Properties.Resources.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.csproj.GenerateResource.Cache
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.exe
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.pdb
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.ExitForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.LoginForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.MainForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.MemberForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.MoneyForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.OrderForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.RegistForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.SearchTicketForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.SelectForm.resources
+D:\用户目录\我的文档\Visual Studio 2010\Projects\原型设计\原型设计\obj\x86\Debug\原型设计.UpdateFilmForm.resources
