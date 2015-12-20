@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 291</value>
+  </data>
+  <data name="btnSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSelect.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Name" xml:space="preserve">
+    <value>btnSelect</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSelect.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnColse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 319</value>
+  </data>
+  <data name="btnColse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnColse.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnColse.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;btnColse.Name" xml:space="preserve">
+    <value>btnColse</value>
+  </data>
+  <data name="&gt;&gt;btnColse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnColse.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnColse.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labchoice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labchoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 286</value>
+  </data>
+  <data name="labchoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="labchoice.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labchoice.Text" xml:space="preserve">
+    <value>按日期查询：</value>
+  </data>
+  <data name="&gt;&gt;labchoice.Name" xml:space="preserve">
+    <value>labchoice</value>
+  </data>
+  <data name="&gt;&gt;labchoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labchoice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labchoice.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 305</value>
+  </data>
+  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 21</value>
+  </data>
+  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
+    <value>dateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="dgvSerch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 23</value>
+  </data>
+  <data name="dgvSerch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 195</value>
+  </data>
+  <data name="dgvSerch.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dgvSerch.Name" xml:space="preserve">
+    <value>dgvSerch</value>
+  </data>
+  <data name="&gt;&gt;dgvSerch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvSerch.Parent" xml:space="preserve">
+    <value>grpone</value>
+  </data>
+  <data name="&gt;&gt;dgvSerch.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picPic.Name" xml:space="preserve">
+    <value>picPic</value>
+  </data>
+  <data name="&gt;&gt;picPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picPic.Parent" xml:space="preserve">
+    <value>grptwo</value>
+  </data>
+  <data name="&gt;&gt;picPic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grptwo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grptwo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 286</value>
+  </data>
+  <data name="grptwo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="grptwo.Text" xml:space="preserve">
+    <value>海报</value>
+  </data>
+  <data name="&gt;&gt;grptwo.Name" xml:space="preserve">
+    <value>grptwo</value>
+  </data>
+  <data name="&gt;&gt;grptwo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grptwo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grptwo.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 19</value>
+  </data>
+  <data name="picPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 251</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picPic.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picPic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picPic.Name" xml:space="preserve">
+    <value>picPic</value>
+  </data>
+  <data name="&gt;&gt;picPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picPic.Parent" xml:space="preserve">
+    <value>grptwo</value>
+  </data>
+  <data name="&gt;&gt;picPic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 18</value>
+  </data>
+  <data name="grpone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>484, 238</value>
+  </data>
+  <data name="grpone.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="grpone.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;grpone.Name" xml:space="preserve">
+    <value>grpone</value>
+  </data>
+  <data name="&gt;&gt;grpone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpone.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 319</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>订票</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>565, 290</value>
+  </data>
+  <data name="btnUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve">
+    <value>btnUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>756, 365</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAISAAAAEAIACoEQAAFgAAACgAAAAhAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAA
+        AAD9/f3//Pz8//b29v/19fX/9/f3//T09P/y8vL/7+/v/+zs7P/p6en/5+fn/+Tk5P/i4uL/4ODg/9/f
+        3//g4OD/39/f/9/f3//h4eH/5OTk/+bm5v/p6en/7Ozs//Dw8P/z8/P/9vb2//f39//5+fn//Pz8//Hx
+        8f/29vb/+fn5//39/f/29vb/8vLy/8fHx/9oaGj/SUlJ/0BAQP8/Pz//Pj4+/zo6Ov85OTn/ODg4/zU1
+        Nf8zMzP/MjIy/zMzM/8zMzP/MzMz/zMzM/80NDT/NTU1/zg4OP85OTn/Ojo6/z4+Pv9AQED/QUFB/0VF
+        Rf9GRkb/SEhI/0tLS/91dXX/2dnZ//z8/P/6+vr/xcXF/x8fH/8eHh7/Hh4e/x4eHv8hISH/Hh4e/xwc
+        HP8dHR3/ICAg/x8fH/8eHh7/HR0d/x4eHv8eHh7/Hh4e/x4eHv8eHh7/Hh4e/x8fH/8fHx//Hx8f/x4e
+        Hv8eHh7/Hh4e/x8fH/8dHR3/HR0d/xwcHP8YGBj/PT09//j4+P/4+Pj/Z2dn/xsbG/8fHx//JiYm/yYm
+        Jv8iIiL/Hx8f/x8fH/8gICD/ICAg/yEhIf8gICD/ICAg/yAgIP8gICD/ICAg/yEhIf8hISH/Hx8f/yEh
+        If8hISH/ISEh/yEhIf8fHx//ICAg/yEhIf8sLCz/LCws/ykpKf8fHx//Hx8f/9fX1//7+/v/VVVV/yEh
+        If9paWn/xsbG/83Nzf+wsLD/LS0t/zMzM/+Dg4P/mZmZ/5qamv+bm5v/nJyc/56env+enp7/np6e/6Cg
+        oP+fn5//nJyc/5qamv+ampr/mpqa/5CQkP9ISEj/Hx8f/2FhYf/U1NT/3d3d/8vLy/9ISEj/Ghoa/9HR
+        0f/7+/v/VlZW/ycnJ/+SkpL/9/f3//n5+f/p6en/NjY2/3R0dP/Jycn/ycnJ/8zMzP/Ozs7/0NDQ/9DQ
+        0P/Q0ND/0NDQ/9LS0v/R0dH/z8/P/87Ozv/MzMz/y8vL/8nJyf+NjY3/IyMj/3p6ev/19fX/+fn5//T0
+        9P9gYGD/Hh4e/9DQ0P/9/f3/XFxc/yUlJf9ra2v/4uLi/+Hh4f/ExMT/Kioq/39/f//Nzc3/zs7O/9HR
+        0f/U1NT/1tbW/9fX1//X19f/19fX/9jY2P/X19f/1tbW/9TU1P/R0dH/z8/P/83Nzf+Wlpb/JSUl/1dX
+        V//g4OD/5ubm/9jY2P9CQkL/IyMj/9HR0f/9/f3/bGxs/0dHR/8mJib/LS0t/y4uLv8rKyv/JCQk/4OD
+        g//S0tL/1dXV/9jY2P/a2tr/3Nzc/9/f3//f39//39/f/+Dg4P/f39//3t7e/9ra2v/Y2Nj/1dXV/9PT
+        0/+ampr/Jycn/ycnJ/8zMzP/NDQ0/zExMf8pKSn/JCQk/9PT0//9/f3/cXFx/3Fxcf9JSUn/LS0t/ysr
+        K/8pKSn/LS0t/4aGhv/V1dX/2tra/97e3v/g4OD/4+Pj/+Xl5f/l5eX/5eXl/+bm5v/l5eX/5OTk/+Hh
+        4f/e3t7/29vb/9nZ2f+cnJz/LCws/ywsLP8qKir/Kysr/yYmJv8oKCj/LCws/9TU1P/9/f3/dnZ2/3R0
+        dP99fX3/mZmZ/5SUlP+Dg4P/Pz8//4iIiP/b29v/3t7e/+Pj4//l5eX/6Ojo/+np6f/p6en/6enp/+rq
+        6v/p6en/6Ojo/+bm5v/j4+P/39/f/93d3f+ioqL/LS0t/0NDQ/+Ghob/i4uL/4WFhf87Ozv/MjIy/9bW
+        1v/9/f3/e3t7/3d3d/+vr6//+vr6/+jo6P/V1dX/ZWVl/4aGhv/d3d3/5OTk/+fn5//q6ur/7Ozs/+7u
+        7v/u7u7/7u7u/+/v7//u7u7/7e3t/+vr6//n5+f/5OTk/93d3f+goKD/MjIy/3h4eP/4+Pj/+/v7//n5
+        +f9qamr/MzMz/9nZ2f/9/f3/gYGB/3t7e/+kpKT/9vb2//f39//j4+P/X19f/0ZGRv+UlJT/sLCw/7m5
+        uf+8vLz/wMDA/8TExP/ExMT/xcXF/8TExP/ExMT/w8PD/8DAwP+7u7v/tbW1/6CgoP9RUVH/NDQ0/3Jy
+        cv/4+Pj/+fn5//f39/9dXV3/ODg4/9vb2//9/f3/hYWF/319ff9ubm7/jIyM/4uLi/99fX3/YmJi/zk5
+        Of80NDT/Ojo6/zY2Nv83Nzf/ODg4/zY2Nv83Nzf/ODg4/zc3N/83Nzf/Nzc3/zc3N/84ODj/OTk5/zc3
+        N/82Njb/NTU1/zw8PP9vb2//dXV1/25ubv82Njb/Ozs7/9vb2//8/Pz/iIiI/35+fv+BgYH/gYGB/319
+        ff+BgYH/f39//3R0dP9VVVX/Wlpa/1lZWf9YWFj/WFhY/1tbW/9aWlr/WVlZ/1paWv9aWlr/Wlpa/1pa
+        Wv9aWlr/WVlZ/1NTU/8+Pj7/OTk5/zg4OP83Nzf/ODg4/zY2Nv80NDT/Pz8//9zc3P/8/Pz/i4uL/4GB
+        gf+AgID/g4OD/4iIiP+BgYH/g4OD/56env/S0tL/zMzM/8nJyf/Kysr/y8vL/83Nzf/MzMz/y8vL/8zM
+        zP/MzMz/zMzM/8vLy//Kysr/ycnJ/8bGxv+CgoL/OTk5/z4+Pv9PT0//U1NT/0xMTP86Ojr/QUFB/97e
+        3v/8/Pz/jY2N/4SEhP+goKD/5+fn/+vr6//W1tb/f39//7Kysv/j4+P/4ODg/9XV1f/R0dH/0tLS/9PT
+        0//T09P/09PT/9PT0//T09P/09PT/9PT0//S0tL/0NDQ/9HR0f+bm5v/Ozs7/3h4eP/p6en/7u7u/+fn
+        5/9lZWX/RkZG/97e3v/9/f3/kpKS/4aGhv+ysrL/+vr6//n5+f/t7e3/gICA/7S0tP/l5eX/5ubm/+Pj
+        4//b29v/19fX/9fX1//X19f/19fX/9fX1//X19f/19fX/9fX1//V1dX/1NTU/9PT0/+dnZ3/PT09/4OD
+        g//4+Pj/+fn5//f39/9tbW3/RkZG/+Hh4f/8/Pz/lZWV/4qKiv+JiYn/0tLS/9jY2P+7u7v/d3d3/7S0
+        tP/m5ub/5+fn/+np6f/k5OT/3d3d/9nZ2f/Z2dn/2tra/9nZ2f/Z2dn/2dnZ/9nZ2f/Y2Nj/19fX/9fX
+        1/+ioqL/QkJC/11dXf/Gxsb/zMzM/8HBwf9KSkr/TU1N/+Li4v/8/Pz/l5eX/4qKiv+Hh4f/g4OD/4GB
+        gf+EhIT/ioqK/7i4uP/n5+f/6enp/+rq6v/q6ur/6enp/+Li4v/d3d3/3d3d/9zc3P/c3Nz/3Nzc/9zc
+        3P/b29v/2tra/9ra2v+oqKj/Q0ND/0NDQ/9AQED/QEBA/z8/P/9DQ0P/TExM/+Pj4//7+/v/nJyc/42N
+        jf+QkJD/jY2N/46Ojv+QkJD/lJSU/729vf/q6ur/6+vr/+rq6v/s7Oz/7e3t/+zs7P/m5ub/4eHh/+Dg
+        4P/g4OD/4ODg/+Dg4P/f39//3t7e/93d3f+urq7/RkZG/0dHR/9HR0f/RUVF/0RERP9DQ0P/U1NT/+Pj
+        4//7+/v/nZ2d/5CQkP+UlJT/xMTE/8nJyf+2trb/jY2N/8HBwf/s7Oz/7Ozs/+/v7//v7+//7+/v/+7u
+        7v/u7u7/6enp/+Tk5P/k5OT/4+Pj/+Pj4//i4uL/4eHh/+Dg4P+ysrL/SEhI/2JiYv+srKz/tbW1/6mp
+        qf9YWFj/WVlZ/+Pj4//8/Pz/n5+f/5OTk/+0tLT/+vr6//v7+//t7e3/i4uL/8TExP/u7u7/7+/v//Dw
+        8P/w8PD/7+/v//Dw8P/w8PD/8PDw/+3t7f/n5+f/5ubm/+Xl5f/k5OT/4+Pj/+Li4v+1tbX/S0tL/4uL
+        i//6+vr/+fn5//f39/97e3v/V1dX/+Tk5P/7+/v/o6Oj/5WVlf+kpKT/9PT0//Hx8f/e3t7/g4OD/8fH
+        x//w8PD/8vLy//Hx8f/x8fH/8fHx//Pz8//z8/P/8/Pz//T09P/v7+//6urq/+jo6P/n5+f/5eXl/+bm
+        5v+5ubn/T09P/3x8fP/z8/P/+Pj4/+7u7v9tbW3/Wlpa/+Xl5f/7+/v/paWl/5qamv+EhIT/jIyM/42N
+        jf+Ghob/kJCQ/8rKyv/y8vL/8vLy//Ly8v/z8/P/8/Pz//T09P/09PT/9PT0//T09P/29vb/8PDw/+vr
+        6//o6Oj/6Ojo/+jo6P++vr7/UlJS/1BQUP9ubm7/dXV1/2pqav9LS0v/Xl5e/+bm5v/7+/v/pqam/5mZ
+        mf+bm5v/nJyc/56env+bm5v/nZ2d/8zMzP/z8/P/9PT0//T09P/19fX/9vb2//X19f/19fX/9fX1//X1
+        9f/19fX/9fX1//Hx8f/s7Oz/6+vr/+np6f++vr7/U1NT/1NTU/9TU1P/U1NT/1JSUv9RUVH/X19f/+fn
+        5//7+/v/p6en/52dnf+YmJj/oKCg/6SkpP+cnJz/np6e/87Ozv/09PT/8/Pz//X19f/29vb/9/f3//b2
+        9v/29vb/9vb2//b29v/29vb/9vb2//X19f/z8/P/7+/v/+vr6//CwsL/V1dX/1lZWf9ycnL/dnZ2/29v
+        b/9WVlb/Y2Nj/+jo6P/6+vr/qamp/5+fn/+np6f/8PDw//Pz8//i4uL/l5eX/729vf/u7u7/9vb2//j4
+        +P/5+fn/+vr6//r6+v/6+vr/+vr6//n5+f/5+fn/+fn5//j4+P/5+fn/9vb2/+vr6/+ioqL/V1dX/4eH
+        h//09PT/+vr6//Hx8f92dnb/ZGRk/+jo6P/7+/v/r6+v/6CgoP+srKz/9/f3//f39//r6+v/lJSU/6Ki
+        ov+srKz/tLS0/7a2tv+2trb/tra2/7a2tv+2trb/tra2/7W1tf+1tbX/tbW1/7Ozs/+ysrL/sbGx/6am
+        pv9sbGz/XV1d/4iIiP/5+fn/+/v7//Pz8/97e3v/ZWVl/+bm5v/9/f3/sbGx/6SkpP+IiIj/vLy8/8DA
+        wP+tra3/kZGR/6SkpP+mpqb/pKSk/6ampv+mpqb/pqam/6SkpP+kpKT/pKSk/6Ojo/+jo6P/o6Oj/6Ki
+        ov+hoaH/n5+f/6Ghof+bm5v/c3Nz/2ZmZv+zs7P/t7e3/6urq/9XV1f/cnJy/+rq6v/+/v7/3d3d/5eX
+        l/+kpKT/oqKi/6Ojo/+kpKT/qamp/6ioqP+np6f/qKio/6mpqf+pqan/qamp/6mpqf+pqan/qamp/6mp
+        qf+pqan/qamp/6ampv+lpaX/pKSk/6Ojo/+ioqL/nZ2d/3Z2dv9cXFz/X19f/1tbW/9oaGj/qqqq//v7
+        +////////v7+/+Hh4f/AwMD/sLCw/7Ozs/+1tbX/t7e3/7i4uP+4uLj/uLi4/7y8vP+8vLz/vLy8/729
+        vf+9vb3/vb29/729vf+9vb3/vr6+/7m5uf+5ubn/ubm5/7i4uP+2trb/tLS0/7Kysv+hoaH/n5+f/6io
+        qP/Ly8v/9PT0//7+/v///////v7+//v7+//5+fn/9/f3//v7+//7+/v//Pz8//v7+//7+/v/+/v7//r6
+        +v/6+vr/+vr6//z8/P/8/Pz//Pz8//39/f/9/f3//f39//v7+//7+/v/+/v7//z8/P/8/Pz/+/v7//v7
+        +//8/Pz//Pz8//z8/P/9/f3//f39//7+/v8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>影片查询</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SelectForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
